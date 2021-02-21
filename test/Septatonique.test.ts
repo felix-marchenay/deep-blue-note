@@ -1,5 +1,5 @@
-import { SeptatoniqueFactory } from "../src/Gamme/SeptatoniqueFactory";
-import { Note, Alteration, Mode } from "../src/Note";
+import { SeptatoniqueFactory } from "../src/Domain/Gamme/SeptatoniqueFactory";
+import { Note, Alteration, Mode } from "../src/Domain/Note";
 
 describe("Création d'une gamme septatonique", () => {
 

@@ -7,6 +7,12 @@
 </head>
 <body>
     <main>
+        <label for="maj">Majeur</label>
+        <input checked name="mode" type="radio" value="maj" id="maj">
+        <br>
+        <label for="min">Mineur</label>
+        <input name="mode" type="radio" value="min" id="min">
+        <br>
         <label for="A">A</label>
         <input name="note" type="radio" value="A" id="A">
         <br>
@@ -14,7 +20,7 @@
         <input name="note" type="radio" value="B" id="B">
         <br>
         <label for="C">C</label>
-        <input name="note" type="radio" value="C" id="C">
+        <input checked name="note" type="radio" value="C" id="C">
         <br>
         <label for="D">D</label>
         <input name="note" type="radio" value="D" id="D">
@@ -28,8 +34,16 @@
         <label for="G">G</label>
         <input name="note" type="radio" value="G" id="G">
         <br>
+        <br>
+
+        <label for="deg">Degré</label>
+        <input name="deg" type="text" id="deg" value="1">
+
+        <br><br>
 
         <button id="play">play</button>
+        <button id="play_chord">play chord</button>
+        <button id="play_chord_deg">play chord deg</button>
     </main>
 </body>
 <script src="../dist/bundle.js"></script>

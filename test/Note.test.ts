@@ -1,4 +1,4 @@
-import { Note, NotePure, Intervalle, Alteration } from "../src/Note";
+import { Note, NotePure, Intervalle, Alteration } from "../src/Domain/Note";
 
 describe("Note", () => {
 
